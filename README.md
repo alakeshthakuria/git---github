@@ -59,6 +59,6 @@
     + 2nd option: This is option is about SSH key, which is generated in local system, private key is in the system and provide the public key to github, after 
     that we can configure git to use SSH by the below command:
     ````
-    git remote set-url origin git@github.com:alakeshthakuria/next-delete.git
+    git remote set-url origin git@github.com:github_username/repository.git
     ````
- +  From the above code `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` this is personal access token generated from github. 
+ 
