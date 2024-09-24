@@ -79,6 +79,3 @@
     ````
     git fetch
     ````
-# Git and github notes
-  + git is local
-  + github is remote
