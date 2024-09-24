@@ -9,7 +9,7 @@
   git status
   ````
 3. Stage untrack file
-  ````
-  git add <file_name>
-  ````
+   ````
+   git add <file_name>
+   ````
 + Replace `<file_name>` with your file.
