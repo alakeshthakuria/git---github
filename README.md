@@ -14,13 +14,13 @@
    ````
 +  Replace `<file_name>` with your file.
   
-4. To unstage staged or tacked file.
+4. To unstage staged file.
    ```
    git rm --cached`<file_name>
    ````
 +  Replace `<file_name>` with your file.
 
-5. To commit staged or tracked file.
+5. To track staged file.
    ````
    git commit -m "your message"
    ````
