@@ -72,5 +72,6 @@
 16. To check git commit history
     ````
     git log
+       or 
     git log --oneline
     ````
