@@ -24,3 +24,15 @@
    ````
    git restore <file_name>
    ````
+7. Check git branch
+   ````
+   git branch
+   ````
+8. Create new git branch
+   ````
+   git checkout -b <branch_name>
+   ````
+9. Switch branch in git
+   ````
+   git checkout <branch_name>
+   ````  
