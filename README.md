@@ -61,4 +61,16 @@
     ````
     git remote set-url origin git@github.com:github_username/repository.git
     ````
- 
+14. Push code from local respository that is git to remote repository that is github
+    ````
+    git push origin master
+    ````
+15. Pull code from remote repository that is github to local repository that is git
+    ````
+    git pull origin master
+    ````
+16. To check git commit history
+    ````
+    git log
+    git log --oneline
+    ````
