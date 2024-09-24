@@ -42,4 +42,12 @@
     git remote add origin https://github.com/alakeshthakuria/delete-this.git
     ````
  +  From the above command url `delete-this.git` is the repository created in github which is similar to local repository `delete-this`
-  
+12. How to check reomte repository added or not
+    ````
+    git remote -v
+    ````
+13. How to authenticate git local repository to remote repository that is github, so that we can push to or pull from github to our local respository.
+    ````
+    git remote set-url origin https://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@github.com/alakeshthakuria/delete-this.git
+    ````
+ +  From the above code `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` this is personal access token generated from github. 
