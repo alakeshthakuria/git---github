@@ -51,7 +51,7 @@
     git remote add origin https://github.com/github_username/repository.git
     ````
 13. Next we have to authenticate git local repository to remote repository that is github, so that we can push to or pull from github to our local respository. 
-    There are two ways to authenticate.
+    There are two ways to authenticate:
     1st option: This option works with personal access token which is generated from github:
     ````
     git remote set-url origin https://<Personal_access_token>@github.com/git_userame/repository.git
