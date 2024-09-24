@@ -4,3 +4,8 @@
 + ````
   git init
   ````
+2. Check git status
+  ````
+  git status
+  ```
+`
