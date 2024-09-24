@@ -35,4 +35,11 @@
 9. Switch branch in git
    ````
    git checkout <branch_name>
-   ````  
+   ````
+10. Some command left
+11. Add git initiated repository in local system to github repository that is in remote.
+    ````
+    git remote add origin https://github.com/alakeshthakuria/delete-this.git
+    ````
+ +  From the above command url `delete-this.git` is the repository created in github which is similar to local repository `delete-this`
+  
