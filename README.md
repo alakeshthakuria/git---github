@@ -46,8 +46,19 @@
     ````
     git remote -v
     ````
-13. How to authenticate git local repository to remote repository that is github, so that we can push to or pull from github to our local respository.
+13. First we have to add remote repository or github repository to our local repository to pull or push  the code from remote to local or local to remote .
     ````
-    git remote set-url origin https://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@github.com/alakeshthakuria/delete-this.git
+    git remote add origin https://github.com/github_username/repository.git
+    ````
+13. Next we have to authenticate git local repository to remote repository that is github, so that we can push to or pull from github to our local respository. 
+    There are two ways to authenticate.
+    1st option: This option works with personal access token which is generated from github:
+    ````
+    git remote set-url origin https://<Personal_access_token>@github.com/git_userame/repository.git
+    ````
+    2nd option: This is option is about SSH key, which is generated in local system, private key is in the system and provide the public key to github, after 
+    that we can configure git to use SSH by the below command:
+    ````
+    git remote set-url origin git@github.com:alakeshthakuria/next-delete.git
     ````
  +  From the above code `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` this is personal access token generated from github. 
