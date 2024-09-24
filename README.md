@@ -63,15 +63,19 @@
     ````
 14. Push code from local respository that is git to remote repository that is github
     ````
-    git push origin master
+    git push origin <branch_name>
     ````
 15. Pull code from remote repository that is github to local repository that is git
     ````
-    git pull origin master
+    git pull origin <branch_name>
     ````
 16. To check git commit history
     ````
     git log
        or 
     git log --oneline
+    ````
+17. How to fetch all the branches from remote repository to local repository
+    ````
+    git fetch
     ````
