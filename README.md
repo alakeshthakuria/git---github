@@ -39,9 +39,8 @@
 10. Some command left
 11. Add git initiated repository in local system to github repository that is in remote.
     ````
-    git remote add origin https://github.com/alakeshthakuria/delete-this.git
+    git remote add origin https://github.com/github_username/repository.git
     ````
- +  From the above command url `delete-this.git` is the repository created in github which is similar to local repository `delete-this`
 12. How to check reomte repository added or not
     ````
     git remote -v
