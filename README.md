@@ -14,7 +14,7 @@
    ````
 4. To unstage staged file.
    ```
-   git rm --cached`<file_name>
+   git rm --cached <file_name>
    ````
 5. To track staged file.
    ````
